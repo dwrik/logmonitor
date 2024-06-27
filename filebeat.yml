@@ -1,0 +1,7 @@
+filebeat.inputs:
+- type: log
+  paths:
+    - C:\distributed-system-concepts\logs\*.log
+
+output.logstash:
+  hosts: ["localhost:5044"]
