@@ -7,3 +7,5 @@ spring:
 management:
   endpoints.web.exposure.include: '*'
   endpoint.health.show.details: true
+
+logging.file.path: C:\distributed-system-concepts\logs
